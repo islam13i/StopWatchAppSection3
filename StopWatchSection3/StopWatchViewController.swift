@@ -43,5 +43,6 @@ class StopWatchViewController: UIViewController {
         time = 0
         stopWatchValue.text = "00:00:00"
         timer.invalidate()
+        startBtn.isEnabled = true
     }
 }
